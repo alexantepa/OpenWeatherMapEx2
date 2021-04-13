@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Населенный пункт"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherButton"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:text="Узнать погоду"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/temper"
+        android:textSize="20sp"
+        android:textColor="#F11717"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:hint="Температура"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/press"
+        android:textColor="#F11717"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Давление"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#F11717"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/wind"
+        android:hint="Ветер"/>
+
+
+</LinearLayout>
